@@ -34,13 +34,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-table {
-    margin: 0 auto; /* Centers the table horizontally */
-    border-collapse: collapse; /* Improves table appearance */
-}
-
-th, td {
-    padding: 10px;
-    text-align: center;
-}
-
