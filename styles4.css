@@ -24,7 +24,8 @@ nav a {
     font-weight: bold;
 }
 section {
-    padding: 20px;
+    min-height: 100vh;
+    padding: 50px;
 }
 footer {
     background-color: #4CAF50;
