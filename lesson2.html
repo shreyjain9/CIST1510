@@ -1,93 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson 2 - Variables and Data Types in Java</title>
-    <link rel="stylesheet" href="styles4.css">
-    <style>
-        table {
-            margin: 0 auto;
-            border-collapse: collapse;
-        }
-        th, td {
-            padding: 10px;
-            text-align: center;
-            border: 1px solid black;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn variables and data types in Java">
+  <title>Lesson 2: Variables and Data Types</title>
+  <link rel="stylesheet" href="styles4.css">
 </head>
 <body>
-    <header>
-        <h1>Lesson 2: Variables and Data Types in Java</h1>
-        <nav>
-            <ul>
-                <li><a href="lessons.html">Back to Lessons</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <h2>What are Variables?</h2>
-        <p>Variables are elements that store data in a Java program. They need a type.</p>
+  <header>
+    <h1>Lesson 2: Variables and Data Types</h1>
+    <nav>
+      <ul>
+        <li><a href="index60.html">Home</a></li>
+        <li><a href="lessons.html">Lessons</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>What Are Variables?</h2>
+    <p>Variables are used to store data. Each variable has a type, which defines the kind of value it can hold.</p>
 
-        <h2>Java Data Types</h2>
-        <div style="text-align: center;">
-            <table>
-                <tr>
-                    <th>Data Type</th>
-                    <th>Example</th>
-                    <th>Description</th>
-                </tr>
-                <tr>
-                    <td><code>int</code></td>
-                    <td><code>int a = 9;</code></td>
-                    <td>This manages whole numbers</td>
-                </tr>
-                <tr>
-                    <td><code>double</code></td>
-                    <td><code>double p = 8.88;</code></td>
-                    <td>This manages decimal numbers (15-16 digits)</td>
-                </tr>
-                <tr>
-                    <td><code>float</code></td>
-                    <td><code>float num = 8.88f;</code></td>
-                    <td>This manages fractional numbers (6-7 decimal digits)</td>
-                </tr>
-                <tr>
-                    <td><code>long</code></td>
-                    <td><code>long l = 13000000000L;</code></td>
-                    <td>This manages very large whole numbers</td>
-                </tr>
-                <tr>
-                    <td><code>short</code></td>
-                    <td><code>short b = -5000;</code></td>
-                    <td>This manages large whole numbers</td>
-                </tr>
-                <tr>
-                    <td><code>byte</code></td>
-                    <td><code>byte l = 100;</code></td>
-                    <td>This manages small whole numbers</td>
-                </tr>
-                <tr>
-                    <td><code>char</code></td>
-                    <td><code>char g = 'B';</code></td>
-                    <td>This manages a single character</td>
-                </tr>
-                <tr>
-                    <td><code>boolean</code></td>
-                    <td><code>boolean fun = false;</code></td>
-                    <td>This manages true or false values</td>
-                </tr>
-                <tr>
-                    <td><code>String</code></td>
-                    <td><code>String n = "Sh";</code></td>
-                    <td>This stores text</td>
-                </tr>
-            </table>
-        </div>
-    </section>
-    <footer>
-        <p>&copy; 2025 Free Coding Lessons</p>
-    </footer>
+    <h2>Primitive Data Types</h2>
+    <ul>
+      <li><strong>int</strong> - Integer values (e.g., 10, -3)</li>
+      <li><strong>double</strong> - Decimal numbers (e.g., 3.14, -0.01)</li>
+      <li><strong>char</strong> - A single character (e.g., 'A')</li>
+      <li><strong>boolean</strong> - true or false</li>
+    </ul>
+
+    <h2>Examples</h2>
+    <pre><code>int age = 25;
+double price = 9.99;
+char grade = 'A';
+boolean isJavaFun = true;</code></pre>
+
+    <h2>Reference Types</h2>
+    <p>Strings and arrays are reference types. They store memory addresses of the actual data.</p>
+    <pre><code>String name = "Alice";
+int[] numbers = {1, 2, 3};</code></pre>
+  </main>
+  <footer>
+    <p>&copy; 2025 Free Coding Lessons</p>
+  </footer>
 </body>
 </html>
