@@ -1,36 +1,56 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f8f8f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #212529;
 }
 header, footer {
-  background-color: #4CAF50;
+  background-color: #005f73;
   color: white;
   text-align: center;
-  padding: 1em;
+  padding: 1rem;
 }
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 nav ul li {
-  display: inline;
+  display: inline-block;
   margin: 0 10px;
 }
 nav ul li a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 main {
-  padding: 1em;
+  max-width: 960px;
+  margin: auto;
+  padding: 1rem;
 }
-img, video {
+.thumbnail {
+  max-width: 300px;
   display: block;
-  margin: 1em auto;
-  max-width: 100%;
+  margin: 20px auto;
 }
-form input, form select, form textarea {
+video {
   display: block;
-  width: 90%;
-  margin: 10px auto;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+footer a {
+  color: #ffd166;
+  text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+  video, .thumbnail {
+    width: 90%;
+  }
 }
