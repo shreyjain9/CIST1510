@@ -1,43 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Join our free coding platform">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Join Free Coding Lessons for Java" />
   <title>Join Us</title>
-  <link rel="stylesheet" href="styles4.css">
+  <link rel="stylesheet" href="styles4.css" />
 </head>
 <body>
-<header><h1>Join Free Coding Lessons</h1>
-<nav>
-  <ul>
-    <li><a href="index60.html">Home</a></li>
-    <li><a href="lessons.html">Lessons</a></li>
-    <li><a href="about5.html">About</a></li>
-    <li><a href="faq.html">FAQ</a></li>
-    <li><a href="form.html">Join</a></li>
-    <li><a href="contact5.html">Contact</a></li>
-    <li><a href="sitemap.html">Site Map</a></li>
-    <li><a href="gallery6.html">Gallery</a></li>
-  </ul>
-</nav>
-</header>
-<main>
-  <form name="signupForm" onsubmit="return validateForm()">
-    <input type="text" name="name" placeholder="Full Name" required>
-    <input type="email" name="email" placeholder="Email Address" required>
-    <input type="number" name="age" placeholder="Age">
-    <select name="experience">
-      <option value="beginner">Beginner</option>
-      <option value="intermediate">Intermediate</option>
-      <option value="advanced">Advanced</option>
-    </select>
-    <textarea name="goals" placeholder="What do you want to build with Java?"></textarea>
-    <input type="checkbox" name="terms"> I agree to the terms and conditions
-    <input type="submit" value="Sign Up">
-  </form>
-</main>
-<footer><p>&copy; 2025 Free Coding Lessons</p></footer>
-<script src="script.js"></script>
+  <header>
+    <h1>Join Free Coding Lessons</h1>
+    <nav>
+      <ul>
+        <li><a href="index60.html">Home</a></li>
+        <li><a href="lessons.html">Lessons</a></li>
+        <li><a href="about5.html">About</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="form.html">Join</a></li>
+        <li><a href="contact5.html">Contact</a></li>
+        <li><a href="sitemap.html">Site Map</a></li>
+        <li><a href="gallery6.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Sign Up to Learn Java</h2>
+    <p>Fill out the form below to join our free Java programming course:</p>
+    
+    <form name="signupForm" onsubmit="return validateForm()" class="styled-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" placeholder="Your age" />
+
+      <label for="experience">Programming Experience:</label>
+      <select id="experience" name="experience">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+      </select>
+
+      <label for="goals">Why do you want to learn Java?</label>
+      <textarea id="goals" name="goals" placeholder="Your goals..." rows="4"></textarea>
+
+      <label class="checkbox-label">
+        <input type="checkbox" name="terms" required /> I agree to the terms and conditions
+      </label>
+
+      <input type="submit" value="Join Now" />
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Free Coding Lessons | <a href="mailto:info@freecodinglessons.com">Email Us</a></p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
