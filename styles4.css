@@ -54,9 +54,10 @@ footer a {
     width: 90%;
   }
 }
-.video-container {
-  display: flex;
-  justify-content: center;
+.logo-left {
+  max-width: 300px;
+  display: block;
   margin: 20px 0;
 }
+
 
