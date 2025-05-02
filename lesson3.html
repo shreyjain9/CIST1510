@@ -8,24 +8,38 @@
   <link rel="stylesheet" href="styles4.css">
 </head>
 <body>
-  <header><h1>Lesson 3: Conditionals</h1><nav>...</nav></header>
+  <header><h1>Lesson 3: Conditionals</h1>
+  <nav>
+  <ul>
+    <li><a href="index60.html">Home</a></li>
+    <li><a href="lessons.html">Lessons</a></li>
+    <li><a href="about5.html">About</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+    <li><a href="form.html">Join</a></li>
+    <li><a href="contact5.html">Contact</a></li>
+    <li><a href="sitemap.html">Site Map</a></li>
+    <li><a href="gallery6.html">Gallery</a></li>
+  </ul>
+</nav>
+  </header>
   <main>
     <h2>Making Decisions</h2>
-    <p>Java uses <code>if</code>, <code>else</code>, and <code>switch</code> statements to make decisions in code.</p>
+    <p>Java uses <code>if</code>, <code>else</code>, and <code>switch</code> statements to help with decision-making in the code world. 
+      If statements execute if a condition is true, else statements execute if the preceding if statement is false, and switch statements execute the code corresponding to the matching case.</p>
 
     <h2>Example: if / else</h2>
-    <pre><code>int score = 85;
-if (score >= 90) {
+    <pre><code>int s = 85;
+if (s >= 90) {
   System.out.println("Excellent");
-} else if (score >= 75) {
-  System.out.println("Good job");
+} else if (s >= 80) {
+  System.out.println("Decent job");
 } else {
-  System.out.println("Keep practicing");
+  System.out.println("Keep working on your skills!");
 }</code></pre>
 
     <h2>Example: switch</h2>
-    <pre><code>int day = 2;
-switch (day) {
+    <pre><code>int d = 1;
+switch (d) {
   case 1: System.out.println("Monday"); break;
   case 2: System.out.println("Tuesday"); break;
   default: System.out.println("Other day");
